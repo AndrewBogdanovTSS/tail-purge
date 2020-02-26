@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:css": "postcss ./css/tailwind.css -o dist/css/tailwind.min.css",
+    "watch": "watch \"npm run build:css\" ./layouts"
   },
   "repository": {
     "type": "git",
