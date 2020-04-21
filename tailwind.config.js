@@ -1,17 +1,17 @@
 module.exports = {
   theme: {
-    colors: {
-      active: 'var(--color-active)',
-      grey: 'var(--color-grey)',
-      white: 'var(--color-white)',
-      black: 'var(--color-black)',
-      pale: 'var(--color-pale)'
-    },
-    fontFamily: {
-      sans: ['Open Sans', 'sans-serif'],
-      merriweather: ['Merriweather Sans', 'sans-serif']
-    },
     extend: {
+      colors: {
+        active: 'var(--color-active)',
+        grey: 'var(--color-grey)',
+        white: 'var(--color-white)',
+        black: 'var(--color-black)',
+        pale: 'var(--color-pale)'
+      },
+      fontFamily: {
+        sans: ['Open Sans', 'sans-serif'],
+        merriweather: ['Merriweather Sans', 'sans-serif']
+      },
       screens: {
         xxl: '1580px'
       },
